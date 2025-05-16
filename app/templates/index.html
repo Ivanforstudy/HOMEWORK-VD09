@@ -2,5 +2,5 @@
 {% block content %}
     <h1>Кликер!</h1>
     <p>Количество кликов - {{ current_user.clicks }}</p>
-    <a href="{{url for('click') }}">Кнопка</a>
+    <a href="{{url_for('click') }}">Кнопка</a>
 {% endblock %}
